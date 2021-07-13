@@ -1,0 +1,26 @@
+html {
+  min-height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d3436;
+  font-family: Calibri;
+  color: #dfe6e9;
+}
+svg {
+  background-color: #dfe6e9;
+  padding: 2rem;
+}
+#canvas {
+  min-width: 1000px;
+  min-height: 600px;
+}
+#tooltip {
+  visibility: hidden;
+}
+rect:hover {
+  fill: antiquewhite;
+}
